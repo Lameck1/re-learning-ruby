@@ -1,0 +1,1 @@
+puts 42.kind_of?(Integer)
