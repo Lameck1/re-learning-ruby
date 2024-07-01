@@ -5,6 +5,7 @@ p user["last_name"] # "Shark"
 
 # You can use symbols as the keys in your hash instead of strings:
 user_two = {:first_name => "Tom", :last_name => "Whale"}
+# BETTER:-> user = {first_name: "Tom", last_name: "Whale"}
 
 # Using symbols as hash keys is preferred whenever possible.
 # Every instance of a symbol points to the same object,
