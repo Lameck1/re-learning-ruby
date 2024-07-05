@@ -1,3 +1,7 @@
+#!/usr/bin/env ruby
+
+# the file has been made executable by including the first line above and: 'chmod +x arrays.rb'
+
 sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
 result = sharks.find {|item| item.include?("a")}
 results = sharks.select {|item| item.include?("a")}
